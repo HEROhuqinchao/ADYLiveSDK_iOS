@@ -24,14 +24,14 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/HEROhuqinchao/ADYLiveSDK_iOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'HEROhuqinchao' => '48790696+HEROhuqinchao@users.noreply.github.com' }
+  s.author           = { 'HEROhuqinchao' => '616592062@qq.com' }
   s.source           = { :git => 'https://github.com/HEROhuqinchao/ADYLiveSDK_iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'ADYLiveSDK_iOS/Classes/**/*'
-  
+  s.vendored_frameworks = 'ADYLiveSDK_iOS/Classes/*.framework'
   # s.resource_bundles = {
   #   'ADYLiveSDK_iOS' => ['ADYLiveSDK_iOS/Assets/*.png']
   # }

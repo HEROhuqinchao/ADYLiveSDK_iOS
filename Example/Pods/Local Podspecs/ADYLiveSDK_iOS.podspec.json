@@ -1,0 +1,22 @@
+{
+  "name": "ADYLiveSDK_iOS",
+  "version": "0.1.0",
+  "summary": "A short description of ADYLiveSDK_iOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/HEROhuqinchao/ADYLiveSDK_iOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "HEROhuqinchao": "48790696+HEROhuqinchao@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/HEROhuqinchao/ADYLiveSDK_iOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ADYLiveSDK_iOS/Classes/**/*"
+}
