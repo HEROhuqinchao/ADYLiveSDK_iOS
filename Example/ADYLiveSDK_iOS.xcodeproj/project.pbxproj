@@ -371,11 +371,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ADYLiveSDK_iOS_Example/Pods-ADYLiveSDK_iOS_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ADYLiveSDK_iOS/ADYLiveSDK_iOS.framework",
+				"${PODS_ROOT}/../../ADYLiveSDK_iOS/Classes/ADYLiveSDK.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ADYLiveSDK_iOS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ADYLiveSDK.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
