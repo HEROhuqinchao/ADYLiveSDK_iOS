@@ -1550,20 +1550,6 @@
 			};
 			name = Debug;
 		};
-		4EDADE60F14C498947AB27865B28C48E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D69374570E3BFE2C673F63391ED22DA /* ADYLiveSDK_iOS.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		60BAC1DF8B6A587AD8A179A2F95A5106 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 59A0A37A02735D77CBA0BBD9D6BC9A12 /* Specta.debug.xcconfig */;
@@ -1593,6 +1579,21 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		6A26C1D1238D9F545B52E1C35EB76241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D69374570E3BFE2C673F63391ED22DA /* ADYLiveSDK_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		9A733CB90B7844AFAEEAD5F0D6661A17 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1657,13 +1658,14 @@
 			};
 			name = Debug;
 		};
-		A9330E630E674DCC0C1007BC6CB1B307 /* Debug */ = {
+		A99BEC5CDA066AB0BE49ED91EE736780 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0887AA9CCA19F7DC43BC832A4D7E82D0 /* ADYLiveSDK_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1874,8 +1876,8 @@
 		3BFE15FC9569720AB809DBFD37CAD23D /* Build configuration list for PBXAggregateTarget "ADYLiveSDK_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A9330E630E674DCC0C1007BC6CB1B307 /* Debug */,
-				4EDADE60F14C498947AB27865B28C48E /* Release */,
+				A99BEC5CDA066AB0BE49ED91EE736780 /* Debug */,
+				6A26C1D1238D9F545B52E1C35EB76241 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -248,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = HEROhuqinchao;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = JV9837GRRV;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -519,6 +522,7 @@
 			baseConfigurationReference = 93B6028DF76E9568BED79D99 /* Pods-ADYLiveSDK_iOS_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JV9837GRRV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ADYLiveSDK_iOS/ADYLiveSDK_iOS-Prefix.pch";
 				INFOPLIST_FILE = "ADYLiveSDK_iOS/ADYLiveSDK_iOS-Info.plist";
@@ -535,6 +539,7 @@
 			baseConfigurationReference = 69E16A9CF0525A0D689AF7C6 /* Pods-ADYLiveSDK_iOS_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JV9837GRRV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ADYLiveSDK_iOS/ADYLiveSDK_iOS-Prefix.pch";
 				INFOPLIST_FILE = "ADYLiveSDK_iOS/ADYLiveSDK_iOS-Info.plist";

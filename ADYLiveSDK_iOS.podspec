@@ -35,6 +35,7 @@ Pod::Spec.new do |s|
 #  s.source_files = 'ADYLiveSDK_iOS/Classes/**/*.{h,m}'
   s.frameworks = "CoreVideo","OpenGLES","AVFoundation","CoreMedia","VideoToolbox","AudioToolbox"
   s.vendored_frameworks = 'ADYLiveSDK_iOS/Classes/ADYLiveSDK.framework'
+
   # s.resource_bundles = {
   #   'ADYLiveSDK_iOS' => ['ADYLiveSDK_iOS/Assets/*.png']
   # }
