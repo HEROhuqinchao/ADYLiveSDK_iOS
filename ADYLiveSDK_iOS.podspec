@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ADYLiveSDK_iOS'
-  s.version          = '0.1.4'
-  s.summary          = 'ADYLiveSDK_iOS. 奥点小助手SDK.直播'
+  s.version          = '0.1.5'
+  s.summary          = 'ADYLiveSDK_iOS.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
    #s.ios.deployment_target = '10.0'
    s.platform     = :ios
-   s.platform     = :ios, "9.0"
+   #s.platform     = :ios, "9.0"
 
 #  s.source_files = 'ADYLiveSDK_iOS/Classes/**/*.{h,m}'
 
@@ -40,9 +40,6 @@ Pod::Spec.new do |s|
   # s.resource_bundles = {
   #   'ADYLiveSDK_iOS' => ['ADYLiveSDK_iOS/Assets/*.png']
   # }
-  #s.user_target_xcconfig = {'OTHER_LDFLAGS' => ['-lObjC','-all_load']}#build setting的配置
-  #s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' } #设置不支持bitcode
-  #s.user_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' } #设置不支持bitcode
 
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
