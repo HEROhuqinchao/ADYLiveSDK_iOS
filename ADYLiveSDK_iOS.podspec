@@ -28,9 +28,9 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/HEROhuqinchao/ADYLiveSDK_iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-   #s.ios.deployment_target = '10.0'
+#   s.ios.deployment_target = '10.0'
    s.platform     = :ios
-   #s.platform     = :ios, "9.0"
+   s.platform     = :ios, "9.0"
 
 #  s.source_files = 'ADYLiveSDK_iOS/Classes/**/*.{h,m}'
 
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   # s.resource_bundles = {
   #   'ADYLiveSDK_iOS' => ['ADYLiveSDK_iOS/Assets/*.png']
   # }
-
+    s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
