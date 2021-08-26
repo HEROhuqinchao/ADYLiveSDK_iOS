@@ -1,6 +1,0 @@
-framework module ADYLiveSDK_iOS {
-  umbrella header "ADYLiveSDK_iOS-umbrella.h"
-
-  export *
-  module * { export * }
-}

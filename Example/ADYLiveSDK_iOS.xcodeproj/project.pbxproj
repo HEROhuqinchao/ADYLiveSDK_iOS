@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				6D06D7B29E69CC8628E9C3AD /* [CP] Embed Pods Frameworks */,
+				B1EE7D8EB2D8B8221C124713 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -367,7 +367,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ADYLiveSDK_iOS_Tests/Pods-ADYLiveSDK_iOS_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6D06D7B29E69CC8628E9C3AD /* [CP] Embed Pods Frameworks */ = {
+		B1EE7D8EB2D8B8221C124713 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
