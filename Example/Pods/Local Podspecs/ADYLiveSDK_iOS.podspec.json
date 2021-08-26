@@ -1,7 +1,7 @@
 {
   "name": "ADYLiveSDK_iOS",
-  "version": "0.1.2",
-  "summary": "ADYLiveSDK_iOS. 奥点小助手SDK",
+  "version": "0.1.3",
+  "summary": "ADYLiveSDK_iOS. 奥点小助手SDK.",
   "description": "It's an SDK for adyun live sdk, which implement by Objective-C.",
   "homepage": "https://github.com/HEROhuqinchao/ADYLiveSDK_iOS",
   "license": {
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/HEROhuqinchao/ADYLiveSDK_iOS.git",
-    "tag": "0.1.2"
+    "tag": "0.1.3"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "9.0"
   },
   "frameworks": [
     "CoreVideo",
