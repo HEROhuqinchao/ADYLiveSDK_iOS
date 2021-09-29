@@ -107,16 +107,16 @@ typedef NS_ENUM(NSInteger,ADYLiveCaptureTypeMask) {
 @property (nonatomic, assign) CGFloat brightLevel;
 
 /**
- * 控制摄像头缩放比例默认为1.0，介于1.0~3.0之间
- * The torch control camera zoom scale default 1.0, between 1.0 ~ 3.0
- */
-@property (nonatomic, assign) CGFloat zoomScale;
-
-/**
  * 色调强度
  * 控制色调强度，默认为0.5，介于0.0~1.0之间
  */
 @property (nonatomic, assign) CGFloat toneLevel;
+
+/**
+ * 控制摄像头缩放比例默认为1.0，介于1.0~3.0之间
+ * The torch control camera zoom scale default 1.0, between 1.0 ~ 3.0
+ */
+@property (nonatomic, assign) CGFloat zoomScale;
 
 /**
  * torch 控制捕捉闪光灯打开或关闭
@@ -167,6 +167,10 @@ typedef NS_ENUM(NSInteger,ADYLiveCaptureTypeMask) {
 
 /** The reconnectCount control reconnect count (重连次数) *.*/
 @property (nonatomic, assign) NSUInteger reconnectCount;
+/** 码率调节 */
+@property (nonatomic, assign) NSInteger videoBitRate;
+
+
 
 /***
  * The warterMarkView control whether the watermark is displayed or not ,if set ni,will remove watermark,otherwise add.
@@ -218,40 +222,6 @@ typedef NS_ENUM(NSInteger,ADYLiveCaptureTypeMask) {
 
 /** The stop stream .*/
 - (void)stopLive;
-
-
-
-
-///**
-// * ------------------------------------以下是原相机录制采集方法-----------------------------------------
-// */
-///**视频分辨率*/
-//-(void) setCameraResolutionByActiveFormatWithHeight:(int)height;
-///**帧率设置*/
-//-(void) setCameraForHFRWithFrameRate:(int)frameRate;
-///**闪光灯*/
-//-(void) tourchState:(BOOL)isOpen;
-///**画布拉伸模式*/
-//-(void) setVideoGravity:(AVLayerVideoGravity _Nullable )videoGravity;
-///**曝光*/
-//-(void) exposureNewValue:(CGFloat)newValue;
-///**白平衡*/
-//-(void) setWhiteBlanceValue:(CGFloat)newValue;
-///**色彩*/
-//-(void) setWhiteBlanceValueByTint:(CGFloat)newValue;
-///**点击聚焦*/
-//-(void) setFocusPoint:(CGPoint)point;
-///**获取帧率*/
-//-(NSInteger)captureVideoFPS;
-///**获取当前分辨率*/
-//-(NSString *_Nullable) resolution;
-///**获取最小曝光度*/
-//-(CGFloat)getMinExposureValue;
-///**获取最大曝光度*/
-//-(CGFloat)getMaxExposureValue;
-///** 设备方向调整*/
-//- (void) adjustVideoOrientationByScreenOrientation:(UIInterfaceOrientation)orientation;
-
 
 /**
  * support outer input yuv or rgb video(set ADYLiveCaptureTypeMask) .

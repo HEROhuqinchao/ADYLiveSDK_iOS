@@ -73,8 +73,11 @@ typedef NS_ENUM (NSUInteger, ADYLiveVideoSessionPreset){
 
 /** 是否开启垫片推流 发送设置图片 默认为false*/
 @property (nonatomic, assign) BOOL isSendCloverImage;
+/** 是否开启垫片推流 发送设置图片 默认为false*/
+@property (nonatomic, readonly) BOOL isSendCustomFrame;
+
 /**
- *  垫片推流设置图片 设置此图片 推流发送此图片 未设置则发送截取第一帧图片
+ *  垫片推流设置图片 设置此图片 推流发送此图片
  *  isSendCloverImage =  true 生效
  *  请尽可能设置图片尺寸为直播尺寸 否则内部会进行等比拉伸裁剪 平铺画面
  */
