@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ADYLiveSDK_iOS'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = 'ADYLiveSDK_iOS.直播小助手'
 
 # This description is used to generate tags and improve search results.
@@ -20,6 +20,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
   It's an SDK for adyun live sdk, which implement by Objective-C.
   修改某些BUG
+  设置支持bitcode
                        DESC
 
   s.homepage         = 'https://github.com/HEROhuqinchao/ADYLiveSDK_iOS'
@@ -29,7 +30,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/HEROhuqinchao/ADYLiveSDK_iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-#   s.ios.deployment_target = '10.0'
+#   s.ios.deployment_target = '12.0'
    s.platform     = :ios
    s.platform     = :ios, "12.0"
 
@@ -42,7 +43,7 @@ Pod::Spec.new do |s|
   #   'ADYLiveSDK_iOS' => ['ADYLiveSDK_iOS/Assets/*.png']
   # }
     s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
-
+    s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'YES' } #设置支持bitcode
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
