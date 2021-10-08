@@ -40,9 +40,13 @@
 		<data>
 		FxH5oo8vJ9/Pcb3wDDfyhn6/0Ds=
 		</data>
+		<key>Headers/DeviceOrientationObserver.h</key>
+		<data>
+		Idub8hmkHolKW1E+6fvw5ReatqA=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		zF4CH744Rm3ucZnUwd8ReB8/Fxg=
+		72cu/j2aUH5l/Jbc4zpsIrHYtjA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -53,10 +57,6 @@
 	<dict>
 		<key>Headers/ADYAudioFrame.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7SE5HAeRYtiZv6Cgc0KD/r5iU+w=
-			</data>
 			<key>hash2</key>
 			<data>
 			cY6yy91Jtiwz/UwSvRNP/F4hlC6EpQhllqgU9XSKRoc=
@@ -64,10 +64,6 @@
 		</dict>
 		<key>Headers/ADYFrame.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0fQPRShDVmxaG95BXuD9MrckKzQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			OD2I00XzbjJtrHw6YMMnD5LDRRlDjLZEUSPgFBfsQ1o=
@@ -75,10 +71,6 @@
 		</dict>
 		<key>Headers/ADYLiveAudioConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XGQERRaocn3/ZKivs2Kktdw/Y+E=
-			</data>
 			<key>hash2</key>
 			<data>
 			hTX4/30n2SGDOPgKJhRK+TMZGpMRF1H5BByof7e88l4=
@@ -86,10 +78,6 @@
 		</dict>
 		<key>Headers/ADYLiveDebug.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			k+lM4pPfNzQoj+XGkWDrrfx5jx0=
-			</data>
 			<key>hash2</key>
 			<data>
 			LaaPVPZywXJVFzzKDpfAVwYJiwKo6C47aYVoJwSmybc=
@@ -97,10 +85,6 @@
 		</dict>
 		<key>Headers/ADYLiveSDK.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mjvtvMJ6/okHaDU3wPCtmPxQr9M=
-			</data>
 			<key>hash2</key>
 			<data>
 			zIew6aY1JTqKh5fAOFnk5vQKJ7EWrliiKJmv+kpghRc=
@@ -108,10 +92,6 @@
 		</dict>
 		<key>Headers/ADYLiveSession.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			WuZ9b2kKvvlzjfK/Cb/vE0xIwK0=
-			</data>
 			<key>hash2</key>
 			<data>
 			iVLWnxtsFonJycEWTgW29pNrEhO/I7fti7d+UeLAtRk=
@@ -119,10 +99,6 @@
 		</dict>
 		<key>Headers/ADYLiveStreamInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Q03bIOHGqdlycaf5j4YAOPmc+z8=
-			</data>
 			<key>hash2</key>
 			<data>
 			f6JcA4BXbGm2l8CFhVeoyHwS2Kjfdjlg+C9PHXuH9j4=
@@ -130,10 +106,6 @@
 		</dict>
 		<key>Headers/ADYLiveVideoConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KzueeP9pnB0v2nNdYc3I86kMZeI=
-			</data>
 			<key>hash2</key>
 			<data>
 			ry/8LoP/yQKFAmcNkVx1oEOJ/rHA+do2ZkEpdoUL+k0=
@@ -141,21 +113,20 @@
 		</dict>
 		<key>Headers/ADYVideoFrame.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FxH5oo8vJ9/Pcb3wDDfyhn6/0Ds=
-			</data>
 			<key>hash2</key>
 			<data>
 			e6DUYDoJQQrr1n2a/2Qt3iGtLFNct7U8P+DxjqedNOc=
 			</data>
 		</dict>
+		<key>Headers/DeviceOrientationObserver.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			l/GgNL4oZcYrKM4gvdgHhF8hrricy6XFYdGOKT0/Nu4=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Q5lHKbQXiY3DV3zggg7BQb53K64=
-			</data>
 			<key>hash2</key>
 			<data>
 			WnR0Dd+nhO5z4tJaoJTI6rC12XVyZGQnFkPdUiyjpI8=

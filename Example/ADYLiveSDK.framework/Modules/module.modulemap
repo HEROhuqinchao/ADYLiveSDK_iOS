@@ -1,6 +1,0 @@
-framework module ADYLiveSDK {
-  umbrella header "ADYLiveSDK.h"
-
-  export *
-  module * { export * }
-}
