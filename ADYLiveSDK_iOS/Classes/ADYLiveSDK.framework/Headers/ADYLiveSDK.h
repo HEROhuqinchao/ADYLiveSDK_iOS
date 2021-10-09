@@ -27,6 +27,7 @@ FOUNDATION_EXPORT const unsigned char ADYLiveSDKVersionString[];
 #import <ADYLiveSDK/ADYLiveStreamInfo.h>
 #import <ADYLiveSDK/ADYVideoFrame.h>
 #import <ADYLiveSDK/ADYLiveDebug.h>
+#import <ADYLiveSDK/DeviceOrientationObserver.h>
 #else
 #import "ADYLiveSession.h"
 #import "ADYLiveAudioConfiguration.h"
@@ -36,6 +37,7 @@ FOUNDATION_EXPORT const unsigned char ADYLiveSDKVersionString[];
 #import "ADYLiveStreamInfo.h"
 #import "ADYVideoFrame.h"
 #import "ADYLiveDebug.h"
+#import "DeviceOrientationObserver.h"
 #endif
 
 #endif
