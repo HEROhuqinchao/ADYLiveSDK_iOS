@@ -40,7 +40,7 @@ typedef NS_ENUM (NSUInteger, ADYLiveVideoSessionPreset){
 - (ADYLiveVideoSessionPreset)supportSessionPreset:(ADYLiveVideoSessionPreset)sessionPreset devicePosition:(  AVCaptureDevicePosition )devicePosition;
 
 /**自定义情况下必须进行数据更新*/
--(void)UpDataConfig;
+- (void)defaultConfiguration:(ADYLiveVideoConfiguration *)configuration;
 
 #pragma mark - Attribute
 ///=============================================================================
