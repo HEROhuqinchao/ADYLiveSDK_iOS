@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ADYLiveSDK_iOS'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = 'ADYLiveSDK_iOS.直播小助手'
 
 # This description is used to generate tags and improve search results.
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
   It's an SDK for adyun live sdk, which implement by Objective-C.
-  修改某些BUG 修复问题 删除多余代码
+  修改某些BUG 修复问题 删除多余代码 删除GPUImage
                        DESC
 
   s.homepage         = 'https://github.com/HEROhuqinchao/ADYLiveSDK_iOS'
@@ -37,11 +37,7 @@ Pod::Spec.new do |s|
 
   s.frameworks = "CoreVideo","OpenGLES","AVFoundation","CoreMedia","VideoToolbox","AudioToolbox"
   s.vendored_frameworks = 'ADYLiveSDK_iOS/Classes/ADYLiveSDK.framework'
-
-  # s.resource_bundles = {
-  #   'ADYLiveSDK_iOS' => ['ADYLiveSDK_iOS/Assets/*.png']
-  # }
-  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 x86_64 armv7' }
     
   #设置支持bitcode
   # s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'YES' }

@@ -40,7 +40,7 @@ typedef NS_ENUM (NSUInteger, ADYLiveVideoSessionPreset){
 - (ADYLiveVideoSessionPreset)supportSessionPreset:(ADYLiveVideoSessionPreset)sessionPreset devicePosition:(  AVCaptureDevicePosition )devicePosition;
 
 /**自定义情况下必须进行数据更新*/
-- (void)defaultConfiguration:(ADYLiveVideoConfiguration *)configuration;
+- (void)defaultConfiguration:(ADYLiveVideoConfiguration *_Nullable)configuration;
 
 #pragma mark - Attribute
 ///=============================================================================
@@ -81,7 +81,10 @@ typedef NS_ENUM (NSUInteger, ADYLiveVideoSessionPreset){
  *  isSendCloverImage =  true 生效
  *  请尽可能设置图片尺寸为直播尺寸 否则内部会进行等比拉伸裁剪 平铺画面
  */
-@property (nonatomic, strong) UIImage * _Nullable cloverImage;
+/// 竖屏
+@property (nonatomic, strong) UIImage * _Nullable cloverImageV;
+/// 横屏
+@property (nonatomic, strong) UIImage * _Nullable cloverImageH;
 /** 直播内部调用*/
 @property (nonatomic, assign, readonly) CVPixelBufferRef _Nullable  lastImageBuffer;
 
@@ -120,52 +123,5 @@ typedef NS_ENUM (NSUInteger, ADYLiveVideoSessionPreset){
 /// 自定义配置
 + (instancetype _Nonnull )customConfiguration_outputImageOrientation:(BOOL)landscape;
 
-/// 默认分辨率： 1080 *1920  帧数：30 码率：3000Kps
-+ (instancetype _Nonnull )ADYLiveVideoQuality_Default;
-
-/// 分辨率： 360 *640 帧数：24 码率：500Kps
-+ (instancetype _Nonnull )ADYLiveVideoQuality_360P_24FPS_outputImageOrientation:(BOOL)landscape;
-
-/// 分辨率： 360 *640 帧数：30 码率：800Kps
-+ (instancetype _Nonnull )ADYLiveVideoQuality_360P_30FPS_outputImageOrientation:(BOOL)landscape;
-
-/// 分辨率： 360 *640 帧数：60 码率：800Kps
-+ (instancetype _Nonnull )ADYLiveVideoQuality_360P_60FPS_outputImageOrientation:(BOOL)landscape;
-
-/// 分辨率： 540 *960 帧数：24 码率：800Kps
-+ (instancetype _Nonnull )ADYLiveVideoQuality_540P_24FPS_outputImageOrientation:(BOOL)landscape;
-
-/// 分辨率： 540 *960 帧数：30 码率：800Kps
-+ (instancetype _Nonnull )ADYLiveVideoQuality_540P_30FPS_outputImageOrientation:(BOOL)landscape;
-
-/// 分辨率： 540 *960 帧数：60 码率：800Kps
-+ (instancetype _Nonnull )ADYLiveVideoQuality_540P_60FPS_outputImageOrientation:(BOOL)landscape;
-
-/// 分辨率： 720 *1280 帧数：24 码率：1200Kps
-+ (instancetype _Nonnull )ADYLiveVideoQuality_720P_24FPS_outputImageOrientation:(BOOL)landscape;
-
-/// 分辨率： 720 *1280 帧数：30 码率：1800Kps
-+ (instancetype _Nonnull )ADYLiveVideoQuality_720P_30FPS_outputImageOrientation:(BOOL)landscape;
-
-/// 分辨率： 720 *1280 帧数：60 码率：1800Kps
-+ (instancetype _Nonnull )ADYLiveVideoQuality_720P_60FPS_outputImageOrientation:(BOOL)landscape;
-
-/// 分辨率： 1080 *1920 帧数：24 码率：3000Kps
-+ (instancetype _Nonnull )ADYLiveVideoQuality_1080P_24FPS_outputImageOrientation:(BOOL)landscape;
-
-/// 分辨率： 1080 *1920  帧数：30 码率：3000Kps
-+ (instancetype _Nonnull )ADYLiveVideoQuality_1080P_30FPS_outputImageOrientation:(BOOL)landscape;
-
-/// 分辨率： 1080 *1920  帧数：60 码率：3000Kps
-+ (instancetype _Nonnull )ADYLiveVideoQuality_1080P_60FPS_outputImageOrientation:(BOOL)landscape;
-
-/// 分辨率： 2160 *3840 帧数：15 码率：8000Kps
-+ (instancetype _Nonnull )ADYLiveVideoQuality_2160P_15FPS_outputImageOrientation:(BOOL)landscape;
-
-/// 分辨率： 2160 *3840 帧数：24 码率：8000Kps
-+ (instancetype _Nonnull )ADYLiveVideoQuality_2160P_24FPS_outputImageOrientation:(BOOL)landscape;
-
-/// 分辨率： 2160 *3840 帧数：30 码率：8000Kps
-+ (instancetype _Nonnull )ADYLiveVideoQuality_2160P_30FPS_outputImageOrientation:(BOOL)landscape;
 
 @end
