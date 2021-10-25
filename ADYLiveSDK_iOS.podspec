@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ADYLiveSDK_iOS'
-  s.version          = '0.2.3'
+  s.version          = '0.2.4'
   s.summary          = 'ADYLiveSDK_iOS.直播小助手'
 
 # This description is used to generate tags and improve search results.
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
   It's an SDK for adyun live sdk, which implement by Objective-C.
-  修改某些BUG 修复问题 删除多余代码 删除GPUImage 更新（0.2.3）
+  修改某些BUG 修复问题  更新（0.2.4）
                        DESC
 
   s.homepage         = 'https://github.com/HEROhuqinchao/ADYLiveSDK_iOS'
